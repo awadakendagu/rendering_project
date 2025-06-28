@@ -1,0 +1,323 @@
+{
+    "output": {
+        "filename": "disney_test_grid.png"
+    },
+    "sampler": {
+        "type": "independent",
+        "xSamples": 8,
+        "ySamples": 8
+    },
+    "camera": {
+        "type": "pinhole",
+        "transform": {
+            "position": [
+                0,
+                2,
+                5
+            ],
+            "up": [
+                0,
+                1,
+                0
+            ],
+            "lookAt": [
+                0,
+                0,
+                0
+            ]
+        },
+        "tNear": 0.1,
+        "tFar": 10000,
+        "verticalFov": 45,
+        "timeStart": 0,
+        "timeEnd": 0,
+        "film": {
+            "size": [
+                1200,
+                800
+            ]
+        }
+    },
+    "integrator": {
+        "type": "directSampleLight"
+    },
+    "scene": {
+        "shapes": [
+            {
+                "type": "parallelogram",
+                "base": [
+                    -10,
+                    0,
+                    -10
+                ],
+                "edge1": [
+                    20,
+                    0,
+                    0
+                ],
+                "edge0": [
+                    0,
+                    0,
+                    20
+                ],
+                "material": {
+                    "type": "matte",
+                    "albedo": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                }
+            },
+            {
+                "type": "sphere",
+                "center": [
+                    -0.75,
+                    0.5,
+                    0
+                ],
+                "radius": 0.49,
+                "material": {
+                    "type": "disney",
+                    "baseColor": [
+                        0.25,
+                        0.83,
+                        0.36
+                    ],
+                    "roughness": 0.5,
+                    "specular": 0.5,
+                    "specularTint": 0.5,
+                    "subsurface": 0.5,
+                    "metallic": 0.8,
+                    "anisotropic": 0.0,
+                    "sheen": 0.0,
+                    "sheenTint": 0.5,
+                    "clearcoat": 1.0,
+                    "clearcoatRoughness": 0.5,
+                    "ior": 1.5,
+                    "transmission": 0.0,
+                    "transmissionRoughness": 0.0
+                }
+            },
+            {
+                "type": "sphere",
+                "center": [
+                    2.25,
+                    0.5,
+                    0
+                ],
+                "radius": 0.49,
+                "material": {
+                    "type": "disney",
+                    "baseColor": [
+                        0.75,
+                        0.83,
+                        0.46
+                    ],
+                    "roughness": 0.5,
+                    "specular": 0.5,
+                    "specularTint": 0.5,
+                    "subsurface": 0.0,
+                    "metallic": 0.1,
+                    "anisotropic": 0.0,
+                    "sheen": 0.0,
+                    "sheenTint": 0.5,
+                    "clearcoat": 0.0,
+                    "clearcoatRoughness": 0.5,
+                    "ior": 1.5,
+                    "transmission": 0.0,
+                    "transmissionRoughness": 0.0
+                }
+            },
+            {
+                "type": "sphere",
+                "center": [
+                    -2.25,
+                    0.5,
+                    -3
+                ],
+                "radius": 0.49,
+                "material": {
+                    "type": "disney",
+                    "baseColor": [
+                        0.5,
+                        0.23,
+                        0.84
+                    ],
+                    "roughness": 0.5,
+                    "specular": 1.0,
+                    "specularTint": 0.5,
+                    "subsurface": 1.0,
+                    "metallic": 0.5,
+                    "anisotropic": 0.1,
+                    "sheen": 0.5,
+                    "sheenTint": 0.5,
+                    "clearcoat": 0.5,
+                    "clearcoatRoughness": 0.5,
+                    "ior": 1.5,
+                    "transmission": 0.0,
+                    "transmissionRoughness": 0.0
+                }
+            },
+            {
+                "type": "sphere",
+                "center": [
+                    -0.75,
+                    0.5,
+                    -3
+                ],
+                "radius": 0.49,
+                "material": {
+                    "type": "disney",
+                    "baseColor": [
+                        0.5,
+                        0.9,
+                        0.84
+                    ],
+                    "roughness": 0.1,
+                    "specular": 1.0,
+                    "specularTint": 0.5,
+                    "subsurface": 1.0,
+                    "metallic": 0.0,
+                    "anisotropic": 0.0,
+                    "sheen": 0.5,
+                    "sheenTint": 0.5,
+                    "clearcoat": 0.5,
+                    "clearcoatRoughness": 0.5,
+                    "ior": 1.5,
+                    "transmission": 0.0,
+                    "transmissionRoughness": 0.0
+                }
+            },
+            {
+                "type": "sphere",
+                "center": [
+                    0.75,
+                    0.5,
+                    -3
+                ],
+                "radius": 0.49,
+                "material": {
+                    "type": "disney",
+                    "baseColor": [
+                        0.9,
+                        0.9,
+                        0.84
+                    ],
+                    "roughness": 0.1,
+                    "specular": 1.0,
+                    "specularTint": 0.5,
+                    "subsurface": 1.0,
+                    "metallic": 1.0,
+                    "anisotropic": 0.0,
+                    "sheen": 0.5,
+                    "sheenTint": 0.5,
+                    "clearcoat": 0.5,
+                    "clearcoatRoughness": 0.5,
+                    "ior": 1.5,
+                    "transmission": 0.0,
+                    "transmissionRoughness": 0.0
+                }
+            },
+            {
+                "type": "sphere",
+                "center": [
+                    2.25,
+                    0.5,
+                    -3
+                ],
+                "radius": 0.49,
+                "material": {
+                    "type": "disney",
+                    "baseColor": [
+                        0.2,
+                        0.2,
+                        0.3
+                    ],
+                    "roughness": 0.2,
+                    "specular": 0.5,
+                    "specularTint": 0.5,
+                    "subsurface": 0.5,
+                    "metallic": 0.5,
+                    "anisotropic": 0.1,
+                    "sheen": 0.5,
+                    "sheenTint": 0.5,
+                    "clearcoat": 0.5,
+                    "clearcoatRoughness": 0.5,
+                    "ior": 1.5,
+                    "transmission": 0.0,
+                    "transmissionRoughness": 0.0
+                }
+            },
+            {
+                "type": "sphere",
+                "center": [
+                    0.75,
+                    0.5,
+                    0
+                ],
+                "radius": 0.49,
+                "material": {
+                    "type": "disney",
+                    "baseColor": [
+                        0.3,
+                        0.5,
+                        0.3
+                    ],
+                    "roughness": 0.2,
+                    "specular": 0.3,
+                    "specularTint": 0.0,
+                    "subsurface": 0.8,
+                    "metallic": 0.9,
+                    "anisotropic": 0.3,
+                    "sheen": 1.0,
+                    "sheenTint": 0.5,
+                    "clearcoat": 1.0,
+                    "clearcoatRoughness": 0.5,
+                    "ior": 1.5,
+                    "transmission": 0.0,
+                    "transmissionRoughness": 0.0
+                }
+            },
+            {
+                "type": "sphere",
+                "center": [
+                    -2.25,
+                    0.5,
+                    0
+                ],
+                "radius": 0.49,
+                "material": {
+                    "type": "disney",
+                    "baseColor": [
+                        0.1,
+                        0.1,
+                        0.3
+                    ],
+                    "roughness": 0.9,
+                    "specular": 0.3,
+                    "specularTint": 0.0,
+                    "subsurface": 0.5,
+                    "metallic": 0.5,
+                    "anisotropic": 0.1,
+                    "sheen": 0.0,
+                    "sheenTint": 0.5,
+                    "clearcoat": 0.0,
+                    "clearcoatRoughness": 0.5,
+                    "ior": 1.5,
+                    "transmission": 0.0,
+                    "transmissionRoughness": 0.0
+                }
+            }
+        ],
+        "lights": [
+            {
+                "type": "environmentLight",
+                "texture": {
+                    "type": "imageTex",
+                    "file": "images/indoor.hdr"
+                }
+            }
+        ]
+    }
+}

@@ -61,4 +61,4 @@ Moer-lite的框架基于Moer主干：https://github.com/NJUCG/Moer .
 
 ## TODO
 - 对mesh和sphere实现表面采样（目前只有parallelogram可以配置为面光源）
-- 加速环境光的采样
+- 加速环境光的采样# rendering_project
